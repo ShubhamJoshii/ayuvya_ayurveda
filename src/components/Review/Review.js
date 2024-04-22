@@ -72,7 +72,7 @@ const Review = () => {
       </div>
       <div id="collection">
         <h2>Would you recommend Trausti?</h2>
-        <p>Your opinion won't be posted publicly.</p>
+        <p>Your opinion won&apos;t be posted publicly.</p>
         <div className="opinion">
           <div
             id={reviewData.opinion ? "" : "opinionActive"}
@@ -111,8 +111,7 @@ const Review = () => {
       <div id="collection">
         <h2>Care to share more?</h2>
         <p>
-          How was your overall experience? What's that one thing you won't
-          forget Traustl for?
+          How was your overall experience? What&apos;s that one thing you won&apos;t forget Trausti for?
         </p>
         <textarea placeholder="Come on, you know the drill." onChange={(e)=>setReviewData({...reviewData,overallExperience:e.target.value})} value={reviewData.overallExperience}></textarea>
       </div>
